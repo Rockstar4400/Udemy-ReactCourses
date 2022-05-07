@@ -1,0 +1,29 @@
+{
+    "editor.accessibilityPageSize": 14,
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+    
+    "powermode.enabled" : true,
+    "powermode.presets": "flames",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "explorer.confirmDelete": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.enabled": false,
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.format.enable": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "window.zoomLevel": 1
+}
