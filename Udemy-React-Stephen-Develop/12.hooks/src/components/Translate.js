@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Dropdown from './Dropdown';
 import Convert from './Convert';
 
-//${{ secrets.GOOGLE_TOKEN }}
 const options =[
     {
         label: 'Afrikaans',

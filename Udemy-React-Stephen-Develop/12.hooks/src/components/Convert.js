@@ -27,7 +27,7 @@ const Convert = ({ language, text }) => {
                     params:{
                         q: debouncedText,
                         target: language.value,
-                        key: '${{ secrets.GOOGLE_TOKEN }}'
+                        key: ''
                     }
                 }
             );
