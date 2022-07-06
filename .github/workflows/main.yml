@@ -6,4 +6,5 @@ jobs:
     steps:
       - name: Test
         run: echo "Testing"
-        env: YOUTUBE_TOKEN: ${{ YOUTUBE_TOKEN }}
+        env: 
+          YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
