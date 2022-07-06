@@ -1,5 +1,5 @@
 /node_modules
-src/.env
+.env
 bundle.js
 npm-debug.log
 .DS_Store
