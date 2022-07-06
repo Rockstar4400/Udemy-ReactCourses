@@ -13,7 +13,7 @@ class App extends Component {
 
     this.state = { videos: [] };
 
-    const API_KEY = 'AIzaSyCSBTsI650fbg-GeW8XKnTCt6LTuRBgjPs';
+   const API_KEY = process.env.YOUTUBE_API_KEY;
 
     YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
         this.setState({videos});
